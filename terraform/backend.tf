@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket         = "aws-training-terraform-states"
-    key            = "ecs-demo-root/terraform.tfstate"
+    key            = "ecs-demo-random/terraform.tfstate"
     region         = "eu-west-1"
   }
 
